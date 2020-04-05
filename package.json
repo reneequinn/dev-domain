@@ -1,0 +1,16 @@
+{
+  "name": "dev-domain",
+  "version": "1.0.0",
+  "description": "Developer club website created for Develop Web Services assignment.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/tailwind.css -o public/css/tailwind.css"
+  },
+  "author": "Renee Quinn",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
