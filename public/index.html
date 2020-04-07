@@ -5,6 +5,330 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev Domain</title>
     <link rel="stylesheet" href="css/tailwind.css" />
+    <link rel="stylesheet" href="css/custom.css" />
   </head>
-  <body></body>
+  <body class="bg-black text-white">
+    <header>
+      <nav class="flex items-center justify-between flex-wrap bg-gray-900 p-6">
+        <div class="flex items-center mr-6">
+          <img src="assets/icons/logo.svg" alt="Dev Domain" />
+        </div>
+        <div class="block lg:hidden">
+          <button class="flex items-center px-3 py-2 text-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                fill="#fff"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="font-semibold text-center lg:flex-grow lg:text-left">
+            <a
+              href="#"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:bg-gray-800 lg:hover:bg-transparent lg:hover:text-gray-200 lg:mr-4 p-2 lg:p-0 lg:border-b-2"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-200 lg:mr-4 p-2 lg:p-0"
+              >About</a
+            >
+            <a
+              href="#"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-200 lg:mr-4 p-2 lg:p-0"
+              >Membership</a
+            >
+            <a
+              href="#"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-200 lg:mr-4 p-2 lg:p-0"
+              >News</a
+            >
+            <a
+              href="#"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-200 lg:mr-4 p-2 lg:p-0"
+              >Events</a
+            >
+            <a
+              href="#"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-200 p-2 lg:p-0"
+              >Contact</a
+            >
+          </div>
+          <div class="font-semibold text-center">
+            <a
+              href="#"
+              class="block lg:inline-block px-4 py-2 border-2 rounded-lg hover:bg-black mt-4 mx-2 lg:m-0"
+              >Sign Up</a
+            >
+            <a
+              href="#"
+              class="block lg:inline-block px-4 py-2 border-2 border-purple-600 rounded-lg bg-purple-600 hover:bg-purple-700 hover:border-purple-700 mt-4 mx-2 lg:mt-0"
+              >Log In</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section flex items-center">
+        <div class="container text-center">
+          <h1 class="text-4xl font-semibold mb-2">
+            Connecting developers across the globe
+          </h1>
+          <p class="text-lg mb-6">
+            A developer community focused on connection, education and people
+          </p>
+          <a
+            href="#"
+            class="mt-4 px-5 py-3 font-semibold text-lg rounded-lg bg-purple-600 hover:bg-purple-700"
+            >Sign Up</a
+          >
+          <a
+            href="#"
+            class="mt-4 px-5 py-3 font-semibold text-lg rounded-lg bg-gray-900 hover:bg-black"
+            >Find Out More</a
+          >
+        </div>
+      </section>
+      <section class="container flex flex-wrap justify-evenly text-center">
+        <div class="bg-gray-900 flex-1 m-4 p-6 rounded-md">
+          <img src="assets/icons/world.svg" class="h-16 mx-auto mb-2" alt="" />
+          <h3 class="text-xl mb-2 font-semibold">160 countries</h3>
+          <p>Our user base spans over 160 countries worldwide</p>
+        </div>
+        <div class="bg-gray-900 flex-1 m-4 p-6 rounded-md">
+          <img src="assets/icons/group.svg" class="h-16 mx-auto mb-2" alt="" />
+          <h3 class="text-xl mb-2 font-semibold">13,000 groups</h3>
+          <p>We have over 13,000 active meetup groups and counting</p>
+        </div>
+        <div class="bg-gray-900 flex-1 m-4 p-6 rounded-md">
+          <img src="assets/icons/person.svg" class="h-16 mx-auto mb-2" alt="" />
+          <h3 class="text-xl mb-2 font-semibold">100,000 developers</h3>
+          <p>
+            Over 100,000 developers of different skill levels and interest
+            groups
+          </p>
+        </div>
+      </section>
+      <section class="container my-4">
+        <h2 class="text-2xl font-semibold mx-4">Latest News</h2>
+        <div class="py-2">
+          <div class="flex flex-wrap rounded bg-gray-900 m-4">
+            <div class="w-full md:flex-none md:w-1/4">
+              <img src="assets/img/laptop.jpg" alt="" class="rounded" />
+            </div>
+            <div class="m-6 flex-1">
+              <h3 class="text-xl font-semibold mb-1">Header</h3>
+              <p class="mb-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio magnam reprehenderit non cum hic accusantium rem
+                ullam doloribus perspiciatis libero ipsam, temporibus veniam
+                amet nam assumenda. Tempora ad optio illum? Excepturi, vel!
+                Totam, aliquid quis.
+              </p>
+              <a href="#" class="underline text-purple-600">Read More</a>
+            </div>
+          </div>
+          <div class="flex flex-wrap-reverse rounded bg-gray-900 m-4">
+            <div class="m-6 flex-1">
+              <h3 class="text-xl font-semibold mb-1">Header</h3>
+              <p class="mb-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+                ipsa eos dolorem voluptatem voluptatibus ducimus aliquam vel
+                natus quibusdam facere eaque eveniet explicabo sit distinctio
+                aliquid laborum ut, numquam pariatur expedita, at saepe
+                accusantium non?
+              </p>
+              <a href="#" class="underline text-purple-600">Read More</a>
+            </div>
+            <div class="w-full md:flex-none md:w-1/4">
+              <img src="assets/img/people-coding.jpg" alt="" class="rounded" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container my-4">
+        <h2 class="text-2xl font-semibold mx-4">Upcoming Events</h2>
+        <div class="py-2 lg:flex flex-wrap">
+          <div class="flex-1 bg-gray-900 lg:w-1/4 m-4 p-3 pb-5 rounded">
+            <h4 class="text-lg font-semibold mb-1">Event</h4>
+            <p class="mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              consectetur.
+            </p>
+            <a
+              href="#"
+              class="bg-purple-600 rounded-md py-2 px-3 font-semibold mb-4 mr-2 hover:bg-purple-700"
+              >RSVP</a
+            >
+            <a
+              href="#"
+              class="bg-gray-800 rounded-md py-2 px-3 font-semibold mb-4 hover:bg-black"
+              >View details</a
+            >
+          </div>
+          <div class="flex-1 bg-gray-900 lg:w-1/4 m-4 p-3 pb-5 rounded">
+            <h4 class="text-lg font-semibold mb-1">Event</h4>
+            <p class="mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              consectetur.
+            </p>
+            <a
+              href="#"
+              class="bg-purple-600 rounded-md py-2 px-3 font-semibold mb-4 mr-2 hover:bg-purple-700"
+              >RSVP</a
+            >
+            <a
+              href="#"
+              class="bg-gray-800 rounded-md py-2 px-3 font-semibold mb-4 hover:bg-black"
+              >View details</a
+            >
+          </div>
+          <div class="flex-1 bg-gray-900 lg:w-1/4 m-4 p-3 pb-5 rounded">
+            <h4 class="text-lg font-semibold mb-1">Event</h4>
+            <p class="mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              consectetur.
+            </p>
+            <a
+              href="#"
+              class="bg-purple-600 rounded-md py-2 px-3 font-semibold mb-4 mr-2 hover:bg-purple-700"
+              >RSVP</a
+            >
+            <a
+              href="#"
+              class="bg-gray-800 rounded-md py-2 px-3 font-semibold mb-4 hover:bg-black"
+              >View details</a
+            >
+          </div>
+          <div class="flex-1 bg-gray-900 lg:w-1/4 m-4 p-3 pb-5 rounded">
+            <h4 class="text-lg font-semibold mb-1">Event</h4>
+            <p class="mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              consectetur.
+            </p>
+            <a
+              href="#"
+              class="bg-purple-600 rounded-md py-2 px-3 font-semibold mb-4 mr-2 hover:bg-purple-700"
+              >RSVP</a
+            >
+            <a
+              href="#"
+              class="bg-gray-800 rounded-md py-2 px-3 font-semibold mb-4 hover:bg-black"
+              >View details</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-900">
+      <div class="md:flex justify-between container items-top py-4 text-left">
+        <div class="flex-1 md:w:1/3 flex justify-around md:justify-start mx-4">
+          <ul class="leading-8 mr-8">
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200">Home</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200">About</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200"
+                >Membership</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200">News</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200">Events</a>
+            </li>
+          </ul>
+          <ul class="leading-8">
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200"
+                >Terms and Conditions</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200"
+                >Sign Up</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-gray-200">Log In</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1 md:w-1/3 text-center md:text-left mt-2 mx-4">
+          <form action="">
+            <label for="newsletter-email" class="block mb-2 font-medium"
+              >Sign up for our newsletter</label
+            >
+            <input
+              type="email"
+              class="py-1 px-2 rounded mb-2"
+              placeholder="example@email.com"
+            />
+            <input
+              type="submit"
+              value="Submit"
+              class="bg-purple-600 py-1 px-2 rounded font-semibold"
+            />
+          </form>
+          <div class="mt-2">
+            <h6 class="font-semibold">Keep in touch</h6>
+            <div class="flex items-center justify-center md:justify-start">
+              <a href="#"
+                ><img
+                  src="assets/icons/facebook.svg"
+                  alt=""
+                  class="h-8 m-2 ml-0"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/icons/twitter-square.svg"
+                  alt=""
+                  class="h-8 m-2"
+              /></a>
+              <a href="#"
+                ><img src="assets/icons/instagram.svg" alt="" class="h-8 m-2"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 md:w-1/3 mt-2 text-center md:text-right mx-4">
+          <img
+            src="assets/icons/logo.svg"
+            alt=""
+            class="mx-auto md:ml-auto md:mr-0 mb-2"
+          />
+          <p class="mb-3">
+            120 Currie St<br />
+            Adelaide SA 5000<br />
+            hello@domain.com<br />
+            08 XXXX-XXXX
+          </p>
+          <span class="text-sm">&copy; 2020 Renee Quinn</span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
