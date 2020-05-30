@@ -1,9 +1,5 @@
 <?php
 session_start();
-require '../../vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../../');
-$dotenv->load();
-$mapKey = getenv('MAP_KEY');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -71,6 +67,7 @@ $mapKey = getenv('MAP_KEY');
         <div class="w-full">
           <h2 class="text-2xl mb-2">Search Events</h2>
           <div class="w-full md:grid grid-cols-5 gap-4">
+
             <div class="relative col-span-2">
               <select ng-model="filterEvent" name="filterEvent" id="filterEvent"
                 class="bg-gray-900 block appearance-none mb-2 rounded p-2 border-2 border-gray-700 w-full">
@@ -187,7 +184,7 @@ $mapKey = getenv('MAP_KEY');
   </footer>
   <script src="../js/navbar.js"></script>
   <script src="../js/events-controller.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=<?= $mapKey; ?>"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key="></script>
 </body>
 
 </html>
