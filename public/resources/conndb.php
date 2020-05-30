@@ -9,12 +9,12 @@
 // $dbPass = getenv('DB_PASS');
 // $dbName = getenv('DB_NAME');
 
-$url = parse_url(getenv('CLEARDB_DATABASE_URL'));
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-$dbHost = $url['host'];
-$dbUser = $url['user'];
-$dbPass = $url['pass'];
-$dbName = substr($url['path'], 1);
+$dbHost = $url["host"];
+$dbUser = $url["user"];
+$dbPass = $url["pass"];
+$dbName = substr($url["path"], 1);
 
 
 $link = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
