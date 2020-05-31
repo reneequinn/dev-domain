@@ -27,11 +27,11 @@ app.controller('eventsCtrl', ($scope, $http) => {
 
       $scope.markers = [];
       $scope.gMap = null;
-      const centerLat = venues[0].lat;
-      const centerLng = venues[0].lng;
+      const centerLat = '-34.9226333';
+      const centerLng = '138.5989525';
 
       const mapOptions = {
-        zoom: 14,
+        zoom: 15,
         center: new google.maps.LatLng(centerLat, centerLng),
         styles: mapStyles,
       };
