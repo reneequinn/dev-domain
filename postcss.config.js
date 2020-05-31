@@ -4,9 +4,6 @@ const cssnano = require('cssnano');
 module.exports = {
   plugins: [
     require('tailwindcss'),
-    cssnano({
-      preset: 'default',
-    }),
     purgecss({
       content: [
         './public/**/*.html',
@@ -16,6 +13,9 @@ module.exports = {
         './public/**/*.js',
       ],
       defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
+    }),
+    cssnano({
+      preset: 'default',
     }),
     require('autoprefixer'),
   ],

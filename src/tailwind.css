@@ -1,5 +1,5 @@
 @tailwind base;
-
+/* purgecss start ignore */
 body {
   @apply bg-black text-white;
 }
@@ -115,5 +115,5 @@ textarea.ng-invalid.ng-touched {
 .icon {
   @apply inline-block;
 }
-
+/* purgecss end ignore */
 @tailwind utilities;
