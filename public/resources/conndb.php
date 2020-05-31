@@ -9,7 +9,7 @@ $dbUser = getenv('DB_USER');
 $dbPass = getenv('DB_PASS');
 $dbName = getenv('DB_NAME');
 
-$link = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
+$link = mysqli_real_connect($dbHost, $dbUser, $dbPass, $dbName);
 
 // if (!$link) {
 //   echo mysqli_error($link);
