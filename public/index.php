@@ -118,7 +118,7 @@ session_start(); ?>
             <a href="pages/contact.php">Contact</a>
           </li>
           <li>
-            <a href="./privacy.php">Privacy Policy</a>
+            <a href="pages/privacy.php">Privacy Policy</a>
           </li>
           <li>
             <a href="pages/register.php">Sign Up</a>

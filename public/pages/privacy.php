@@ -351,9 +351,8 @@ session_start();
         <h2 class="text-2xl mb-2">Contact Us</h2>
         <p class="mb-4">If you have any questions about this Privacy Policy, You can contact us:</p>
         <ul class="mb-4 list-disc ml-6">
-          <li>By visiting this page on our website: <a href="devdomain.azurewebsites.net/contact"
-              rel="external nofollow noopener" target="_blank"
-              class="underline text-purple-600 hover:text-purple-700">devdomain.azurewebsites.net/contact</a></li>
+          <li>By visiting this page on our website: <a href="./contact.php" rel="external nofollow noopener"
+              target="_blank" class="underline text-purple-600 hover:text-purple-700">Contact</a></li>
         </ul>
       </div>
     </section>
