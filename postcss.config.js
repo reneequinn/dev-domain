@@ -8,7 +8,12 @@ module.exports = {
       preset: 'default',
     }),
     purgecss({
-      content: ['./public/**/*.html', './public/**/*.php', './public/*.php'],
+      content: [
+        './public/**/*.html',
+        './public/**/*.php',
+        './public/*.php',
+        './public/**/*.js',
+      ],
       defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
     }),
     require('autoprefixer'),
