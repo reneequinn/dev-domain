@@ -27,8 +27,8 @@ app.controller('eventsCtrl', ($scope, $http) => {
 
       $scope.markers = [];
       $scope.gMap = null;
-      const centerLat = '-34.9218641';
-      const centerLng = '138.5975153';
+      const centerLat = '-34.922980';
+      const centerLng = '138.599503';
 
       const mapOptions = {
         zoom: 15,
