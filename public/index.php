@@ -9,6 +9,10 @@ session_start(); ?>
   <title>Dev Domain</title>
   <link rel="stylesheet" href="css/tailwind.css" />
   <link rel="stylesheet" href="css/custom.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body class="flex flex-col min-h-screen">
@@ -91,81 +95,6 @@ session_start(); ?>
         </p>
       </div>
     </section>
-    <!-- <section class="container mb-8 mx-auto px-4 lg:p-0">
-      <h2 class="text-2xl mb-2">Latest News</h2>
-      <div class="flex flex-wrap rounded bg-gray-900 mb-4">
-        <div class="w-full md:flex-none md:w-1/4">
-          <img src="assets/img/laptop.jpg" alt="" class="rounded" />
-        </div>
-        <div class="m-6 flex-1">
-          <h3 class="text-xl mb-1">Header</h3>
-          <p class="mb-2 text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Distinctio magnam reprehenderit non cum hic accusantium rem ullam
-            doloribus perspiciatis libero ipsam, temporibus veniam amet nam
-            assumenda. Tempora ad optio illum? Excepturi, vel! Totam, aliquid
-            quis.
-          </p>
-          <a href="#" class="underline text-purple-600">Read More</a>
-        </div>
-      </div>
-      <div class="flex flex-wrap-reverse rounded bg-gray-900">
-        <div class="m-6 flex-1">
-          <h3 class="text-xl mb-1">Header</h3>
-          <p class="mb-2 text-gray-300">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
-            ipsa eos dolorem voluptatem voluptatibus ducimus aliquam vel natus
-            quibusdam facere eaque eveniet explicabo sit distinctio aliquid
-            laborum ut, numquam pariatur expedita, at saepe accusantium non?
-          </p>
-          <a href="#" class="underline text-purple-600">Read More</a>
-        </div>
-        <div class="w-full md:flex-none md:w-1/4">
-          <img src="assets/img/people-coding.jpg" alt="" class="rounded" />
-        </div>
-      </div>
-    </section>
-    <section class="container mx-auto px-4 lg:p-0 mb-8">
-      <h2 class="text-2xl mb-4">Upcoming Events</h2>
-      <div class="sm:grid sm:grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="bg-gray-900 p-4 rounded">
-          <h4 class="text-lg mb-1">Event</h4>
-          <p class="mb-4 text-sm text-gray-300">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-            consectetur.
-          </p>
-          <a href="#" class="inline-block btn-small btn-purple mr-2">RSVP</a>
-          <a href="#" class="inline-block btn-small btn-gray">View details</a>
-        </div>
-        <div class="bg-gray-900 p-4 rounded">
-          <h4 class="text-lg mb-1">Event</h4>
-          <p class="mb-4 text-sm text-gray-300">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-            consectetur.
-          </p>
-          <a href="#" class="inline-block btn-small btn-purple mr-2">RSVP</a>
-          <a href="#" class="inline-block btn-small btn-gray">View details</a>
-        </div>
-        <div class="bg-gray-900 p-4 rounded">
-          <h4 class="text-lg mb-1">Event</h4>
-          <p class="mb-4 text-sm text-gray-300">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-            consectetur.
-          </p>
-          <a href="#" class="inline-block btn-small btn-purple mr-2">RSVP</a>
-          <a href="#" class="inline-block btn-small btn-gray">View details</a>
-        </div>
-        <div class="bg-gray-900 p-4 rounded">
-          <h4 class="text-lg mb-1">Event</h4>
-          <p class="mb-4 text-sm text-gray-300">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-            consectetur.
-          </p>
-          <a href="#" class="inline-block btn-small btn-purple mr-2">RSVP</a>
-          <a href="#" class="inline-block btn-small btn-gray">View details</a>
-        </div>
-      </div>
-    </section> -->
   </main>
   <footer class="bg-gray-900">
     <div class="md:flex justify-between container items-top py-4 text-left px-4 mt-2 mx-auto">
