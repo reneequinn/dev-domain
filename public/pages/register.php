@@ -68,7 +68,7 @@ session_start();
           <div ng-if="message" class="mb-2">
             <span ng-bind="message" class="bg-gray-900 font-semibold py-1 px-3 rounded-full mr-2">
             </span>
-            <a ng-if="success" href="./login.html" class="bg-purple-600 font-semibold py-1 px-3 rounded-full">Log In</a>
+            <a ng-if="success" href="./login.php" class="bg-purple-600 font-semibold py-1 px-3 rounded-full">Log In</a>
           </div>
           <form name="regForm" ng-submit="registerUser()" novalidate>
             <div class="form-control">
