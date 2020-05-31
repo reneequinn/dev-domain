@@ -1,8 +1,5 @@
 <?php
 session_start();
-require '../../vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../../');
-$dotenv->load();
 $mapKey = getenv('MAP_KEY');
 ?>
 <!DOCTYPE html>
